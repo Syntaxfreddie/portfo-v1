@@ -1,0 +1,12 @@
+dot Nmae font-family: 'Oswald', sans-serif;
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?
+family=Archivo+Black&family=Dancing+Script&family=
+Oswald&family=PT+Sans+Narrow&family=Pacifico&family=
+Poiret+One&family=Shadows+Into+Light&family=Viaoda+
+Libre&display=swap');

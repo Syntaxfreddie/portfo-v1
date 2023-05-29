@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto+Slab:wght@100&family=Timmana&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family:  Sans-serif , Arial Verdana;
+}
+
+header {
+    margin-top: 1.5em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    clear: auto;
+    overflow: hidden;
+}
+
+h1.Name {
+    font-size: 5em;
+    color: #ffffb3;
+    font-weight: 150;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* margin: 0; */
+}
+
+.navigation-top ul {
+    list-style: none;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    font-family: 'Timmana', sans-serif;
+
+}
+
+nav.navigation-top ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navigation-top ul a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em;
+    color: #ffffb3;
+    /* list-style: none; */
+}
+
+.navigation-top ul a:hover {
+    color: #4d0000;
+}
+
+.intro { 
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(asst/pic1-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10em 0;
+    color: #ffffff;
+
+}
+
+.content-intro {
+    margin-top: 5em;
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-intro h1 {
+    margin-top: 1.5em;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.content-intro span {
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.button-intro {
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    background-color: #4d0000;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    border: 2px solid #ffffb3;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in;
+}
+
+.button-intro:hover {
+    background-color: #ffffb3;
+    color: #330000;
+    border: 2px solid #330000;
+}
+.button-intro a {
+text-decoration: none;
+list-style: none;
+font-size: bold;
+}
+
+/* ABOUT MR fRED */
+.about-me {
+    /* padding: 5em 0; */
+    overflow: auto;
+}
+
+.about-me h4 {
+    color: #e60000;
+}
+
+/* who am I */
+
+.whoam-i {
+    width: 90%;
+    margin: 0 auto;
+    /* background-image: url(asst/gabriel-benois-qnWPjzewewA-unsplash.jpg);
+    background-position:cover; */
+}
+
+.whoam-i img {
+    margin-top: 35px;
+}
+
+
+div.col-8.wide-note {
+    float: right;
+    text-align: left;
+    padding: 3em;
+}
+
+/* SOCIAL ICONS */
+.social-iconz {
+    list-style: none;
+    padding: 0;
+}
+
+.social-iconz li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+.social-iconz a {
+    border-radius: 50%;
+    border: 1px solid #444444;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color: #940a0a;
+    transition: all 0.3s ease-in;
+}
+
+.social-iconz a:hover {
+    color: #eef084;
+    border: 1px solid #580404;
+}
+
+
+div.skill-dev {
+    height: 460px;
+    border: ;
+    background-color: ;
+    border-top: 3px solid rgba(40, 49, 7, 0.758);
+}
+
+div.skill-dev.call2a {
+    /* border: 3px solid grey; */
+
+}
+
+#digital-tab {
+    text-align: left;
+}
+
+
+
+#footer {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* background-image: linear-gradient(#4d0000, #330000); */
+    
+    /* background: #111; */
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    /* color: #fff; */
+    color: #580404;
+
+}
+
+div.footer-mobi {
+    /* color: goldenrod; */
+    color: #580404;
+}
+i#contact {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+/* grid colums */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid rgb(223, 156, 33); */
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*###############*/
+
+
+
+
+/* %%%%%%%% MOBILE  %%%%%%%%%%% */
+@media only screen and (max-width: 1331.2px) {
+    #footer {
+        background-image: none;
+    }
+
+    div.footer-mobi {
+        color: goldenrod;
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .whoam-i {
+        width: 100%;
+        margin: 0;
+    }
+
+    div .call2a {
+        width: 100%;
+    }
+
+    div.footer-mobi  {
+        margin: 0%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    div.profilepic {
+        width: 100%;
+    }
+    div.wide-note{
+        width: 100%;
+        line-height: 1.2;
+
+}
+@media screen and (max-width: 721.6px) {
+    div.wide-note{
+        width: 60%;
+        line-height: 1.2;
+    }
+    
+    #footer {
+        margin: 0;
+    }
+    div.footer-mobi h1.h1footer {
+       
+    }
+    
+}
+
+@media screen and (max-width: 667.2px) {
+    h1.Name {
+        margin: 16px;
+        font-size: 3em;
+    }
+    div.content-intro, h1.intro-text {
+        margin-top: 5px;
+
+    }
+    div.profilepic {
+        width: 100%;
+    }
+    div.wide-note{
+        width: 100%;
+        line-height: 1.2;
+    }
+    i#contact {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .navigationlist01 {
+        font-size: 15px;
+    }
+    h1.intro-text {
+        font-size: 27px;
+    }
+}
+
+
+/* @media only screen and (max-width:320px) {
+   *:not(.wide-note){
+  box-sizing : border-box;
+}
+    header, h1.Name {
+        margin: 0;
+    } 
+    nav.navigation-top {
+        padding-top: 50px;
+    }
+    section.about-me {
+        padding: 20px;
+    }
+    h4#age-tag {
+        margin-left: 2px;
+    }
+    div.wide-note {
+        box-sizing: content-box;
+    }
+    p#wide-ptext {
+        padding-bottom: 30px;
+    }
+    /* skills */
+/* #skills-init {
+        display: flex;
+        flex-direction: column;
+    }
+    div#digital-tab {
+        text-align: center;
+        width: 95%;
+}  */
+
+
+
+
+
+/* .video-step {
+    margin-bottom: 270px;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} */
+/* div.footer-mobi {
+    width: 95%;
+} */
